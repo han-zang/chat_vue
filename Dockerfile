@@ -1,5 +1,5 @@
 # 使用 Node.js Alpine 版本作为基础镜像
-FROM node:14-alpine
+FROM node:19-alpine
 
 # 设置工作目录
 WORKDIR /app
@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 5173
 
 # 启动 Vue.js 项目
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "preview"]
