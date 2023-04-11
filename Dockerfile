@@ -13,7 +13,7 @@ RUN npm install
 # 将项目文件复制到容器中
 COPY . .
 
-RUN npm run build
+# RUN npm run build
 
 # 暴露 5173 端口
 EXPOSE 5173
