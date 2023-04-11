@@ -1,4 +1,4 @@
-git reset --hard origin dev
+git reset --hard origin/master
 git pull
 
 docker build -t chat_vue_img .

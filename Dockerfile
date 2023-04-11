@@ -19,4 +19,4 @@ RUN npm run build
 EXPOSE 5173
 
 # 启动 Vue.js 项目
-CMD ["npm", "run", "preview"]
+CMD ["npm", "run", "dev"]
